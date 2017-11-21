@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>CADASTRO</title>
+	<link rel="stylesheet" type="text/css" href="cadastro.css">
+	<script type="text/javascript" src ="validacao.js">  </script>
+
+</head>
+<body>
+<div id="corpopag">
+	<div class="cabecalho">
+		<div class="img1"><img src="/home/junio/Faculdade/3 Semestre/web1/Prova Refeita/imagens/info.png" width="100%" height="100%"></div>
+			<div class="titulo"><br>TECH-INFO TECNOLOGIA</div>
+			<div class="entrar"><a href="cadastro.html"><BR>ENTRAR</a></div>					
+</div>
+<div class="menu">
+<nav>
+	<ul>
+		<li class="menuli"><a href="index.html">HOME</a></li>
+		<li class="menuli">DICAS E TUTORIAIS</li>
+		<li class="menuli">VIDEOS ATAQUES</li>
+		<li class="menuli"><a href="cadastro.html">CADASTRO</a></li>
+		<li class="menuli">CONTATO</li>
+	</ul> </nav></div>
+<div id="menu2">
+	<div class="titulo2"> <h3 class="tith3">INSTITUCIONAL</h3> <p>Lorem ipsum dolor sit amet, <em>consectetur</em> adipiscing elit. Sed velit metus, aliquam id feugiat quis, posuere et mauris. Pellentesque at elit nibh. Praesent ornare mi eu purus suscipit, a auctor dolor tincidunt. Fusce eu odio quis libero mattis sodales nec a elit. Nulla ut lacus in urna euismod <mark>gravida vel nec nisl</mark>. Cras tristique lacus dictum lobortis pulvinar. Phasellus finibus rutrum massa. Aenean egestas ornare ligula vestibulum vulputate. Morbi cursus massa et porttitor ullamcorper.</p><p>Vestibulum volutpat scelerisque mauris sit amet eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet semper facilisis. Morbi lobortis semper metus quis maximus. Curabitur laoreet tempus lacus quis mattis. <strong>Integer et sem eu enim sagittis imperdiet vel sed nunc</strong>.</p></div>
+		<div class="img2"><img src="/home/junio/Faculdade/3 Semestre/web1/Prova Refeita/imagens/arduino.jpg" width="100%" height="100%"></div>
+</div>
+<div id="bloco">
+	<div class="lado1">
+	<form class="formulario" name="form" method="post" action="" onsubmit="envioform();">
+	<fieldset>
+  	<legend>FORMULARIO CADASTRO</legend>
+	<p><label for="cnome"> Nome :</label><input type="text" name="tnome" id="cnome" size="50" maxlength="50" placeholder="DIGITE SEU NOME"></p>
+	<p><label for="crga">RGA :</label><input type="text" name="trga" id="crga" size="20" maxlength="20" placeholder="DIGITE SEU RGA"></p>
+	<p><label for="ccurso">CURSO :</label><input type="text" name="tcurso" id="ccurso" size="25" maxlength="50" placeholder="DIGITE SEU CURSO"></p>
+    <legend>SEXO: </legend>
+	<input type="radio" name="tsexo" id="cmasc"><label for="cmasc"> MASCULINO</label>
+	<input type="radio" name="tsexo" id="cfem"><label for="cfem"> FEMININO</label>
+	<p>CIDADE: <select id="selecaocidade" >
+	<option>SELECIONE A CIDADE</option>
+	<option>RONDONÓPOLIS</option>
+	<option>TESOURO</option>
+	<option>PEDRA PRETA</option>
+	<option>JUCIMEIRA</option>
+	<option>GUIRATINGA</option>		
+	</select><p>
+
+	<p>ESTADO:<select id="selecaoestado">
+		<option>SELECIONE O ESTADO</option>
+		<optgroup label="CENTRO-OESTE">
+		<option>MATO GROSSO</option>
+		</optgroup>
+		<optgroup label="NORTE">
+		<option>RIO BRANCO</option>			
+		</optgroup>
+		<optgroup label="NOROESTE">
+		<option>MARANHÃO</option>			
+		</optgroup>
+		<optgroup label="SUL">
+		<option>PARANÁ</option>			
+		</optgroup>
+		<optgroup label="SUDESTE">
+		<option>RIO DE JANEIRO</option>			
+		</optgroup>
+	</select></p>
+		<p><label for="ENDEREÇO">ENDEREÇO:</label><br><textarea id="ENDEREÇO" rows="1.5" cols="50"></textarea></p>
+	<p><label for="csenha"> SENHA:</label> <input type="password" name="tsenha" id="csenha" maxlength="50" placeholder="DIGITE UMA SENHA"></p>
+	<p><label for="cvsenha"> VERIFICAR SENHA: </label><input type="password" name="tvsenha" id="cvsenha" maxlength="50" placeholder="CONFIRME SUA SENHA">   <input type="submit" name="senvia" value="Enviar FORMULÁRIO"></p>
+
+	</fieldset>
+	
+</form>
+	</div>
+
+	</div>
+	
+</div>
+</div>
+</body>
+</html>

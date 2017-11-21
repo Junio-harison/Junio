@@ -1,0 +1,29 @@
+#corpopag{width: 800px; height: 600px;background-color: #CFCFCF;font-family: sans-serif;}
+.cabecalho{width: 798px; height: 50px;float: left;border:solid 1px;background-color: black;table-layout: fixed;}
+.img1{width: 100px; height: 40px;float:left;margin-top: 5px;margin-left: 5px}
+.entrar{width: 100px; height: 40px;float: right;text-align: center;background-color: #BEBEBE;color:#FF0000;margin-right: 5px;margin-top: 5px; margin-bottom:5px;font-weight: bolder;font-family: sans-serif;}
+.titulo{width: 586px; height: 50px;float: left; text-align: center; font-weight: bolder;color: #FFFAFA;background-color: black;}
+.menu{ width:750px;height: 35px; border:1px solid black ;float: left;list-style: none;text-transform: uppercase; text-align: center;margin-left: 24px;margin-right: 24px;margin-top: 3px; background-color: black;color: #191970 }
+.menuli{display: inline-block; background-color: #A9A9A9; }
+#menu2{width:750px;height: 150px; border:0px solid black;float: left;margin-left: 24px;margin-right: 24px;margin-top: 3px;}
+.titulo2{width:493px;height: 150px; border:1px solid black;float: left;font-size: 10.5px;background-color: black;color:#FFFAFA;font-family: sans-serif;text-indent: 4px;text-align: justify;}
+h3.tith3{text-align: left;font-family: sans-serif;font-weight: bolder;}
+.img2{width:251px;height: 150px; border:1px solid black; float: right;opacity: 0.5}
+#bloco{width:752px;height: 330px;margin-left: 22px;float: left;margin-top: 3px;background-color: #CFCFCF}
+.lado1{width:493px;height:320px;border:1px solid black;float: left;margin-top: 5px;margin-left:2px;border-right: none;background-color: #4F4F4F}
+.lado2{width:255px;height: 320px; border:1px solid black; float: right;margin-top: 5px;border-left: 0px;background-color: #4F4F4F}
+.img8{width:248px;height: 296px;border:solid 1px black;margin-top: 5px;margin-right: 5px;opacity: 0.2}
+.caixasesquerda{width: 235px;height: 80px;border:1px solid black;margin-top: 5px;margin-left: 5px;margin-bottom:5px;float: left;background: url('/home/junio/Faculdade/3 Semestre/web1/Prova Refeita/imagens/cyber security.png');color: #FFFAFA;text-align: right;font-weight: bolder;}
+.caixasdireita{width: 235px;height: 80px;border:1px solid black;margin-top: 5px;margin-left: 5px;margin-bottom:5px;float: right;margin-right: 5px;background: url('/home/junio/Faculdade/3 Semestre/web1/Prova Refeita/imagens/cadeado.png');color: #FFFAFA;text-align: right;font-weight: bolder;}
+.caixasesquerda2{width: 235px;height: 80px;border:1px solid black;margin-top: 5px;margin-left: 5px;margin-bottom:5px;float: left;;background: url('/home/junio/Faculdade/3 Semestre/web1/Prova Refeita/imagens/placamae.jpg');color: #FFFAFA;text-align: right;font-weight: bolder;}
+.tabela{width: 235px;height: 80px;border:1px solid black;margin-top: 5px;margin-left: 5px;margin-bottom:5px;float: right;margin-right: 5px;background-color: black;color: #FFFAFA}
+.caixastitulodireita{width: 150px;height: 20px;border:1px solid black;margin-top: 5px;margin-left: 5px;margin-bottom:5px;float: left;background-color: black;color: #FFFAFA;text-align: left; }
+.caixastituloesquerda{width: 150px;height: 20px;border:1px solid black;margin-top: 5px;margin-left: 5px;margin-bottom:5px;float: right;margin-right: 89px;background-color: black;color: #FFFAFA;text-align: left;}
+.imgrodapeesquerdo{width: 235px;height:80px;border:1px solid black;margin-top: 5px;margin-left: 5px;margin-bottom:5px;float: left;}
+.imgrodapedireito{width: 235px;height:80px;border:1px solid black;margin-top: 5px;margin-left: 5px;margin-bottom:5px;float: right;margin-right: 5px}
+.tabela1{border:1px solid black;border-spacing: 0px;text-align: center;border-color: #696969;}
+table.tabela1 td{font-size: 12px;border:2px solid black;border-color: #696969;margin-left: auto;margin-right: auto;padding: 0px;background-color: black;color: #FFFAFA}
+.rodapetabela{font-size: 5px}
+
+
+
